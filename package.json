@@ -1,0 +1,19 @@
+{
+  "name": "nest-hackernews",
+  "version": "1.0.0",
+  "description": "Nest Example: Scraping Hackernews",
+  "main": "scrape-hackernews.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nest",
+    "scraper",
+    "hackernews"
+  ],
+  "author": "David Oliveros",
+  "license": "MIT",
+  "dependencies": {
+    "node-nest": "^0.7.0"
+  }
+}
