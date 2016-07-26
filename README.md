@@ -28,6 +28,11 @@ Run this program by doing:
 node scrape-hackernews
 ```
 
+See the [scrape-hackernews.js file](https://github.com/d-oliveros/nest-hackernews/blob/master/scrape-hackernews.js) for usage comments.
+
+
+## What is happening?
+
 After running the example, the first worker will go to the articles feed, scrape the 30 articles in the list, store those scraped items in the database, and queue scraping jobs to those articles by their article ID. Then, it will paginate and scrape the next page of the feed.
 
 Meanwhile, the other workers will pick the jobs in the queue, scrape the article pages, and update the article in the database by their article ID.
